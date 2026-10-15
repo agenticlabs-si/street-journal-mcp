@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "si.streetjournal/street-journal",
+  "title": "Street Journal",
+  "description": "Daily and weekly AI briefings on the stocks you hold, plus per-ticker news with sources.",
+  "version": "1.0.0",
+  "websiteUrl": "https://streetjournal.si",
+  "icons": [
+    {
+      "src": "https://streetjournal.si/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://streetjournal.si/mcp"
+    }
+  ]
+}
